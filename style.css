@@ -260,7 +260,7 @@ section .title::after {
 .names .serv-content .card {
 	/* width: calc(33% - 10px); */
 	/* background: #222; */
-	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	/* text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
 	text-align: center;
 	border-radius: 6px;
 	padding: 20px 25px;
