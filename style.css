@@ -10,6 +10,10 @@
 html {
 	scroll-behavior: smooth;
 }
+hr {
+	border-bottom: black;
+	border-style: double;
+}
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
@@ -224,16 +228,15 @@ section .title::after {
 
 .names {
 	display: flex;
-	background: #111;
-	height: 100vh;
-	color: #fff;
+	background: #fff;
+	color: #111;
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: 'Ubuntu', sans-serif;
 }
 .variety {
-	color: #fff;
-	background: #111;
+	background: #fff;
+	color: #111;
 }
 
 .variety .title::before {
@@ -243,6 +246,16 @@ section .title::after {
 .variety .title::after {
 	background: #111;
 	content: "You Can Trust";
+}
+.names .serv-content {
+	display: flex;
+}
+.names .centered {
+	display: flex;
+	justify-content: space-around;
+}
+.names .centered img {
+	height: 120px;
 }
 .names .serv-content .card {
 	/* width: calc(33% - 10px); */
@@ -321,6 +334,7 @@ section .title::after {
 }
 .brochure .brochure-content .left cite {
 	font-size: 27px;
+	color: red;
 }
 .brochure .brochure-content .left img {
 	height: 200px;
@@ -367,6 +381,7 @@ section .title::after {
 	display: inline-table;
 	height: auto;
 	background: #222;
+	color: #fff;
 	text-align: center;
 	border-radius: 6px;
 	padding: 20px 25px;
@@ -375,6 +390,8 @@ section .title::after {
 }
 .variety .carousel .card:hover {
 	background: rgb(0, 252, 134);
+	color: black;
+	font-weight: 300;
 }
 .variety .carousel .card:hover .text {
 	color: black;
