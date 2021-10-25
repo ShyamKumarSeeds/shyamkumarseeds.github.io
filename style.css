@@ -380,20 +380,16 @@ section .title::after {
 	width: calc(33%);
 	display: inline-table;
 	height: auto;
-	background: #222;
-	color: #fff;
+	background: rgb(0, 252, 134);
+	color: black;
+	font-weight: 300;
 	text-align: center;
 	border-radius: 6px;
 	padding: 20px 25px;
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
-.variety .carousel .card:hover {
-	background: rgb(0, 252, 134);
-	color: black;
-	font-weight: 300;
-}
-.variety .carousel .card:hover .text {
+.variety .carousel .card .text {
 	color: black;
 	font-size: 25px;
 	font-weight: 500;
@@ -409,12 +405,12 @@ section .title::after {
 .variety .carousel .card:hover .box {
 	transform: scale(1.05);
 }
-.variety .carousel .card .text {
+/* .variety .carousel .card .text {
 	font-size: 25px;
 	font-weight: 500;
 	color: rgb(0, 252, 134);
 	margin: 10px 0 7px 0;
-}
+} */
 .variety .carousel .card img {
 	height: 150px;
 	width: 150px;
@@ -423,8 +419,9 @@ section .title::after {
 	border: 5px solid rgb(0, 252, 134);
 	transition: all 0.3s ease;
 }
-.variety .carousel .card:hover img {
-	border-color: #fff;
+.variety .carousel .card img {
+	border-color: black;
+	border-width: 1px;
 }
 
 /* contact section styling */
